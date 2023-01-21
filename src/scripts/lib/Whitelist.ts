@@ -1,4 +1,4 @@
-import whitelistAddresses from './whitelist.json';
+import whitelistAddresses from '../third/whitelist.json';
 import { MerkleTree } from 'merkletreejs';
 import keccak256 from 'keccak256';
 
