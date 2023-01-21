@@ -5,7 +5,7 @@ import detectEthereumProvider from '@metamask/detect-provider';
 import NftContractType from '../lib/NftContractType';
 import CollectionConfig from './config/CollectionConfig';
 import NetworkConfigInterface from './NetworkConfigInterface';
-import CollectionStatus from './CollectionStatus';
+import CollectionStatus from '../third/CollectionStatus';
 import MintWidget from './MintWidget';
 import Whitelist from '../lib/Whitelist';
 
