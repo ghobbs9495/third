@@ -3,8 +3,8 @@ import { ethers, BigNumber } from 'ethers'
 import { ExternalProvider, Web3Provider } from '@ethersproject/providers';
 import detectEthereumProvider from '@metamask/detect-provider';
 import NftContractType from '../lib/NftContractType';
-import CollectionConfig from '../../../../third/config/CollectionConfig';
-import NetworkConfigInterface from '../../../../third/NetworkConfigInterface';
+import CollectionConfig from './config/CollectionConfig';
+import NetworkConfigInterface from './NetworkConfigInterface';
 import CollectionStatus from './CollectionStatus';
 import MintWidget from './MintWidget';
 import Whitelist from '../lib/Whitelist';
